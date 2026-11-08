@@ -95,7 +95,7 @@ COLOUR_TASK = f"""
 You have paint and a few brushes. Colours: {", ".join(PALETTE)}. Give a line a colour with stroke="red".
 Give a closed shape (polygon, rect, circle, ellipse, or a path ending in Z) fill="blue" and it becomes a watercolour wash.
 Pick a brush with brush="{'", brush="'.join(BRUSHES[1:])}" (pencil if you leave it out). Use stroke="none" for a wash with no outline.
-The paper is light brown card."""
+The paper is pale grey card."""
 
 
 def nearest_colour(value):
